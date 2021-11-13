@@ -1,0 +1,14 @@
+import Foundation
+
+func squareOrSquareRoot(_ input: [Int]) -> [Int] {
+  var result: [Int] = []
+  for i in input {
+    let root = pow(Double(i), 0.5)
+    if String(root).split(separator: ".")[1].count == 1 {
+        result.append(Int(root))
+    } else {
+        result.append(Int(pow(Double(i), 2)))
+    }
+  }
+  return result
+}
