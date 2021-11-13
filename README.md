@@ -1,5 +1,5 @@
 # codewars-swift
-Codewars Katas for Swift
+Codewars Kata Solutions in Swift
 
 This repo is for my daily Kata solutions in Swift.
 
